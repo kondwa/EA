@@ -1,5 +1,8 @@
 # EA
- Enterprise Application boiler-plate in Python Flask.
- ## Dependancies
- Requires Flask
- ```pip install flask```
+
+Enterprise Application boiler-plate in Python Flask.
+
+## Dependancies
+
+Requires Flask
+  pip install flask
