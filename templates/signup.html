@@ -1,0 +1,14 @@
+{% extends 'structure.html' %}
+{% block title %} Sign up {% endblock title %}
+
+{% block main %}
+<h1>Sign up</h1>
+<form class="" action="/signup" method="post">
+  <input type="text" name="firstname" placeholder="First name">
+  <input type="text" name="lastname" placeholder="Last name">
+  <input type="text" name="username" placeholder="Username">
+  <input type="password" name="password" placeholder="Password">
+  <input type="submit" name="" value="Sign up">
+</form>
+
+{% endblock main %}

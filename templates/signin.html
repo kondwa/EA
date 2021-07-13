@@ -1,0 +1,11 @@
+{% extends 'structure.html' %}
+{% block title %} Sign in {% endblock title %}
+{% block main %}
+<h1>Sign in</h1>
+<form class="" action="/signin" method="post">
+  <input type="text" name="username" placeholder="Username">
+  <input type="password" name="password" placeholder="Password">
+  <input type="submit" name="" value="Sign in">
+</form>
+
+{% endblock main %}
