@@ -14,7 +14,6 @@ def signin():
         username = request.form['username']
         password = request.form['password']
         user = model.signin(username,password)
-        print(user)
         if not user == None:
             session['username']=user[2]
             session['role']=user[3]
